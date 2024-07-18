@@ -10,7 +10,7 @@ import numpy as np
 import numpy.typing as npt
 from .enums import KernelStrategy, SVDStrategy, InitializationStrategy, DiagnosticLevel
 
-FloatArrayType = npt.NDArray[np.float_]
+FloatArrayType = npt.NDArray[np.float64]
 
 
 class DiagnosticDataConfig(NamedTuple):
